@@ -8,7 +8,7 @@ namespace Desktop
 		static void Main(string[] args) {
 			string result = NumericRepresentationConvert
 				.FromAnyBaseTo(
-					"77", 8, 2
+					"105.12", 10, 8
 				);
 			Console.WriteLine( result );
 		}
